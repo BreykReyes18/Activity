@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/peli4"
+    tools:context=".Movie4">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="287dp"
+        android:layout_height="176dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/peli04" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="377dp"
+        android:layout_height="114dp"
+        android:backgroundTint="@android:color/holo_orange_dark"
+        android:drawableTint="#FF9800"
+        android:text="Tanjiro, Nezuko, Zenitsu e Inosuke suben a un tren para ayudar al Hashira de la Llama Kyōjurō Rengoku (Kyujiro Rengoku) en su misión de dar caza a un demonio que ha matado a muchos Cazadores de Demonios. Poco después de subir, todos ellos son encantados y caen en un profundo sueño."
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView5" />
+
+    <Button
+        android:id="@+id/btn_regresar4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="closeView"
+        android:text="Regresar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        app:layout_constraintVertical_bias="0.869" />
+</androidx.constraintlayout.widget.ConstraintLayout>

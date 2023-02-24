@@ -8,10 +8,11 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/btn_4"
         android:layout_width="345dp"
         android:layout_height="57dp"
-        android:text="Ejercicio_4"
+        android:onClick="changeView4"
+        android:text="Pelicula_4"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -19,10 +20,11 @@
         app:layout_constraintVertical_bias="0.894" />
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/btn_2"
         android:layout_width="345dp"
         android:layout_height="57dp"
-        android:text="Ejercicio_2"
+        android:onClick="changeView2"
+        android:text="Pelicula_2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -30,10 +32,11 @@
         app:layout_constraintVertical_bias="0.64" />
 
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/btn_3"
         android:layout_width="345dp"
         android:layout_height="57dp"
-        android:text="Ejercicio_3"
+        android:onClick="changeView3"
+        android:text="Pelicula_3"
         app:layout_constraintBottom_toBottomOf="@+id/textView2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -67,10 +70,11 @@
         app:srcCompat="@drawable/_36378" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btn_1"
         android:layout_width="345dp"
         android:layout_height="57dp"
-        android:text="Ejercicio_1"
+        android:onClick="changeView"
+        android:text="Pelicula_1"
         app:layout_constraintBottom_toBottomOf="@+id/textView2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

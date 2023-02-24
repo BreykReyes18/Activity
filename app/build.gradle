@@ -7,6 +7,10 @@ android {
     namespace 'com.cruzreyes.activity'
     compileSdk 33
 
+    buildFeatures{
+        viewBinding = true
+    }
+
     defaultConfig {
         applicationId "com.cruzreyes.activity"
         minSdk 26

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/peli2"
+    tools:context=".Movie2">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="291dp"
+        android:layout_height="194dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.029"
+        app:srcCompat="@drawable/peli02" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="365dp"
+        android:layout_height="55dp"
+        android:background="#C4000000"
+        android:text="The Last - Naruto the Movie"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="367dp"
+        android:layout_height="357dp"
+        android:background="#C4000000"
+        android:text="Dos años después de los acontecimientos de la Cuarta Guerra Mundial Shinobi, la luna, que Hagoromo Ōtsutsuki creó para sellar el cuerpo de Kaguya Ōtsutsuki comienza a descender hacia la Tierra, como un meteoro que destruiría todo en el impacto. La crisis es causada por Toneri Ōtsutsuki, descendiente de Hamura Ōtsutsuki a través de la rama secundaria del clan, determinado a cumplir con el legado de su antecesor, que la humanidad debe ser exterminada por usar chakra como arma por más de un milenio."
+        android:textAlignment="center"
+        android:textColor="@android:color/primary_text_dark"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <Button
+        android:id="@+id/btn_regresar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="closeView"
+        android:text="Regresar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+</androidx.constraintlayout.widget.ConstraintLayout>

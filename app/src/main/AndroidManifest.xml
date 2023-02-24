@@ -12,6 +12,18 @@
         android:theme="@style/Theme.Activity"
         tools:targetApi="31">
         <activity
+            android:name=".Movie4"
+            android:exported="false" />
+        <activity
+            android:name=".Movie3"
+            android:exported="false" />
+        <activity
+            android:name=".Movie2"
+            android:exported="false" />
+        <activity
+            android:name=".Movie1"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
